@@ -55,6 +55,12 @@ instead and the "swagger.json" was hosted by means of this flask swagger UI app 
 The model POST and GET endpoints are documented with Swagger [Model Swagger Docu](https://github.com/chiemenz/udacity_lab2/blob/master/ModelSwaggerUI.PNG) & [Model Swagger Input Params](https://github.com/chiemenz/udacity_lab2/blob/master/ModelExampleSwaggerValues.PNG)
 
 
+A Pipeline was created [Pipeline Creation](https://github.com/chiemenz/udacity_lab2/blob/master/PipelineCreated.PNG)
+The Pipeline was published [Pipeline Published](https://github.com/chiemenz/udacity_lab2/blob/master/PublishedPipeline.PNG)
+A queued Pipeline by Post request [QueuedPipelineRunByPostRequest](https://github.com/chiemenz/udacity_lab2/blob/master/QueuedPipelineRunByPostRequest.PNG)
+Registered Bank Marketing Dataset [RegisteredBankMarketingSet](https://github.com/chiemenz/udacity_lab2/blob/master/RegisteredBankMarketingSet.PNG)
+Run details of the pipeline step [RunDetailsPipelineSteps](https://github.com/chiemenz/udacity_lab2/blob/master/RunDetailsPipelineSteps.PNG)
+
 In this project, you will following the below steps:
 
     Authentication
