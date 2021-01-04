@@ -47,6 +47,9 @@ The user was granted the owner role by executing the **az workspace share** comm
 The Authentication Role Owner was granted via workspace share [Authentication Role](https://github.com/chiemenz/udacity_lab2/blob/master/AuthenticationRoleOwner.PNG)
 
 ## 2.) An Automated ML Experiment was executed to find a classifier for the success of a bank marketing campaign
+The an optimal classifier for the success of a bank marketing campaign given the customer features is trained based on a registered dataset see:
+Registered Bank Marketing Dataset [RegisteredBankMarketingSet](https://github.com/chiemenz/udacity_lab2/blob/master/RegisteredBankMarketingSet.PNG)
+
 The best model was a **VotingEnsemble** classifier with a weighted area under the curve score **(weighted AUC) of 0.94794**
 This model was deployed to a Container Instance with Authentication. 
 
@@ -57,52 +60,36 @@ THe results of the AutoML run are enlisted here [Best Model Experiment](https://
 ## 3.) The best model was deployed 
 For the best model you can see that it has been both registered and deployed [Best Deployed Model](https://github.com/chiemenz/udacity_lab2/blob/master/best_deployed_model.PNG)
 
-Result of **python endpoint.py** [Consume Endpoint Result](https://github.com/chiemenz/udacity_lab2/blob/master/ConsumeEndpointResult.PNG)
-
+## 4.) Logging via Application insights was enabled
+Application Insights is enabled for the deployed marketingmodel[Application Insights Enabled](https://github.com/chiemenz/udacity_lab2/blob/master/ApplicationInsightsEnabled.PNG)
 
 The logs.py output can be seen here [Log Outputs](https://github.com/chiemenz/udacity_lab2/blob/master/LogsOutput.PNG)
 
+## 5.) The endpoint was documented via Swagger by using a python flask application 
+A Swagger Container is running on Port 4030 [SwaggerContainerRunningOnPort4030](https://github.com/chiemenz/udacity_lab2/blob/master/SwaggerContainerRunningOnPort4030.PNG)
 
+Since the default python commands for running a local Swagger container in combination with a python serving script were not succeeding a python flask app was created 
+instead and the "swagger.json" was hosted by means of this flask swagger UI app instead (https://github.com/chiemenz/udacity_lab2/blob/master/app_project.zip)
 
+The model POST and GET endpoints are documented with Swagger [Model Swagger Docu](https://github.com/chiemenz/udacity_lab2/blob/master/ModelSwaggerUI.PNG) & [Model Swagger Input Params](https://github.com/chiemenz/udacity_lab2/blob/master/ModelExampleSwaggerValues.PNG)
+
+## 6.) The deployed model endpoint was consumed via HTTP POST requests
+Result of **python endpoint.py** [Consume Endpoint Result](https://github.com/chiemenz/udacity_lab2/blob/master/ConsumeEndpointResult.PNG)
+
+## 7.) A AutoML Pipeline is created and can be triggered via HTTP endpoint by publishing
+A Pipeline was created [Pipeline Creation](https://github.com/chiemenz/udacity_lab2/blob/master/PipelineCreated.PNG)
+
+The Pipeline was published [Pipeline Published](https://github.com/chiemenz/udacity_lab2/blob/master/PublishedPipeline.PNG)
 
 The BankMarketingAutoML Pipeline Endpoint is active [ActivePipelineEndpoint](https://github.com/chiemenz/udacity_lab2/blob/master/ActivePipelineEndpoint.PNG)
-
-
-Application Insights is enabled for the deployed marketingmodel[Application Insights Enabled](https://github.com/chiemenz/udacity_lab2/blob/master/ApplicationInsightsEnabled.PNG)
-
 
 An AutML pipeline has been started by HTTP post request of the Published pipeline [AutoML run by POST REQUEST](https://github.com/chiemenz/udacity_lab2/blob/master/AutoMLRunByPostRequest.PNG)
 
 A pipeline has been scheduled with a 4 hour interval [Create Scheduled Pipeline](https://github.com/chiemenz/udacity_lab2/blob/master/CreateScheduledPipeline.PNG)
 
-
-Since the default python commands for running a local Swagger container were not succeeding a python flask app was created 
-instead and the "swagger.json" was hosted by means of this flask swagger UI app instead (https://github.com/chiemenz/udacity_lab2/blob/master/app_project.zip)
-
-The model POST and GET endpoints are documented with Swagger [Model Swagger Docu](https://github.com/chiemenz/udacity_lab2/blob/master/ModelSwaggerUI.PNG) & [Model Swagger Input Params](https://github.com/chiemenz/udacity_lab2/blob/master/ModelExampleSwaggerValues.PNG)
-
-
-A Pipeline was created [Pipeline Creation](https://github.com/chiemenz/udacity_lab2/blob/master/PipelineCreated.PNG)
-The Pipeline was published [Pipeline Published](https://github.com/chiemenz/udacity_lab2/blob/master/PublishedPipeline.PNG)
 A queued Pipeline by Post request [QueuedPipelineRunByPostRequest](https://github.com/chiemenz/udacity_lab2/blob/master/QueuedPipelineRunByPostRequest.PNG)
-Registered Bank Marketing Dataset [RegisteredBankMarketingSet](https://github.com/chiemenz/udacity_lab2/blob/master/RegisteredBankMarketingSet.PNG)
+
 Run details of the pipeline step [RunDetailsPipelineSteps](https://github.com/chiemenz/udacity_lab2/blob/master/RunDetailsPipelineSteps.PNG)
-A Swagger Container is running on Port 4030 [SwaggerContainerRunningOnPort4030](https://github.com/chiemenz/udacity_lab2/blob/master/SwaggerContainerRunningOnPort4030.PNG)
-
-
-
-In this project, you will following the below steps:
-
-    Authentication
-    Automated ML Experiment
-    Deploy the best model
-    Enable logging
-    Swagger Documentation
-    Consume model endpoints
-    Create and publish a pipeline
-    Documentation
-,
-
 
 
 Here is the link to the brief video showing:
