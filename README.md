@@ -91,7 +91,18 @@ A queued Pipeline by Post request [QueuedPipelineRunByPostRequest](https://githu
 
 Run details of the pipeline step [RunDetailsPipelineSteps](https://github.com/chiemenz/udacity_lab2/blob/master/RunDetailsPipelineSteps.PNG)
 
+# Future improvements
+* Automated deployment of the model after the AutoML pipeline has finished instead of manual deployment
+* The AutoML pipeline should be automatically triggered if there are changes to the Bank Marketing Dataset alternatively a Pipeline should be 
+ triggered via schedule depending on how quickly the customer dataset shifts (e.g. by monitoring how much the incoming customer features differ 
+ from the existing training dataset) 
+* Alternatively a pipeline which is not performing a whole AutoML run but just a retraining of the best existing model should be setup and maybe scheduled on
+a regular basis
+ * The Swagger UI with the endpoint documentation should be hosted on a VM (not run on a local docker container)
+ (also the Pipeline Endpoint documentation should be added there)
 
+
+# Video
 Here is the link to the brief video showing:
 
 * 1.) The deployed model endpoint
