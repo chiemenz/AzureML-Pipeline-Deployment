@@ -62,7 +62,7 @@ Registered Bank Marketing Dataset [RegisteredBankMarketingSet](https://github.co
 Run details of the pipeline step [RunDetailsPipelineSteps](https://github.com/chiemenz/udacity_lab2/blob/master/RunDetailsPipelineSteps.PNG)
 A Swagger Container is running on Port 4030 [SwaggerContainerRunningOnPort4030](https://github.com/chiemenz/udacity_lab2/blob/master/SwaggerContainerRunningOnPort4030.PNG)
 
-
+The Authentication Role Owner was granted [Authentication Role](https://github.com/chiemenz/udacity_lab2/blob/master/AuthenticationRoleOwner.PNG)
 
 In this project, you will following the below steps:
 
