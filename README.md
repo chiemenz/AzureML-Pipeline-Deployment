@@ -60,6 +60,9 @@ The Pipeline was published [Pipeline Published](https://github.com/chiemenz/udac
 A queued Pipeline by Post request [QueuedPipelineRunByPostRequest](https://github.com/chiemenz/udacity_lab2/blob/master/QueuedPipelineRunByPostRequest.PNG)
 Registered Bank Marketing Dataset [RegisteredBankMarketingSet](https://github.com/chiemenz/udacity_lab2/blob/master/RegisteredBankMarketingSet.PNG)
 Run details of the pipeline step [RunDetailsPipelineSteps](https://github.com/chiemenz/udacity_lab2/blob/master/RunDetailsPipelineSteps.PNG)
+A Swagger Container is running on Port 4030 [SwaggerContainerRunningOnPort4030](https://github.com/chiemenz/udacity_lab2/blob/master/SwaggerContainerRunningOnPort4030.PNG)
+
+
 
 In this project, you will following the below steps:
 
