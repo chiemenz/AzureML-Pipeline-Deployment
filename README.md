@@ -98,8 +98,9 @@ Run details of the pipeline step [RunDetailsPipelineSteps](https://github.com/ch
  from the existing training dataset) 
 * Alternatively a pipeline which is not performing a whole AutoML run but just a retraining of the best existing model should be setup and maybe scheduled on
 a regular basis
- * The Swagger UI with the endpoint documentation should be hosted on a VM (not run on a local docker container)
+* The Swagger UI with the endpoint documentation should be hosted on a VM (not run on a local docker container)
  (also the Pipeline Endpoint documentation should be added there)
+* The traffic to the model endpoint should be observed and maybe a more powerful compute cluster is needed for inference depending on the number of requests
 
 
 # Video
