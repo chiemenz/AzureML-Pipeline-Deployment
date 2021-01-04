@@ -27,6 +27,10 @@ bellow:
             "previous": 1
 5
 
+# Architecture of the Project 
+Have a look at this diagram [ArchitectureDiagram](https://github.com/chiemenz/udacity_lab2/blob/master/ArchitectureDiagram.PNG)
+
+
 The best model was a **VotingEnsemble** classifier with a weighted area under the curve score **(weighted AUC) of 0.94794**
 This model was deployed to a Container Instance with Authentication. 
 
