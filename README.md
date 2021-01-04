@@ -31,6 +31,30 @@ The best model was a **VotingEnsemble** classifier with a weighted area under th
 This model was deployed to a Container Instance with Authentication. 
 
 
+Result of **python endpoint.py** [Consume Endpoint Result](https://github.com/chiemenz/udacity_lab2/blob/master/ConsumeEndpointResult.PNG)
+The logs.py output can be seen here [Log Outputs](https://github.com/chiemenz/udacity_lab2/blob/master/LogsOutput.PNG)
+
+
+For the best model you can see that it has been both registered and deployed [Best Deployed Model](https://github.com/chiemenz/udacity_lab2/blob/master/best_deployed_model.PNG)
+
+The BankMarketingAutoML Pipeline Endpoint is active [ActivePipelineEndpoint](https://github.com/chiemenz/udacity_lab2/blob/master/ActivePipelineEndpoint.PNG)
+
+
+Application Insights is enabled for the deployed marketingmodel[Application Insights Enabled](https://github.com/chiemenz/udacity_lab2/blob/master/ApplicationInsightsEnabled.PNG)
+The AutoML Experiment Run has been completed [AutoML completed](https://github.com/chiemenz/udacity_lab2/blob/master/AutoMLExpCompleted.PNG)
+THe results of the AutoML run are enlisted here [Best Model Experiment](https://github.com/chiemenz/udacity_lab2/blob/master/BestModelExperiment.PNG)
+
+An AutML pipeline has been started by HTTP post request of the Published pipeline [AutoML run by POST REQUEST](https://github.com/chiemenz/udacity_lab2/blob/master/AutoMLRunByPostRequest.PNG)
+
+A pipeline has been scheduled with a 4 hour interval [Create Scheduled Pipeline](https://github.com/chiemenz/udacity_lab2/blob/master/CreateScheduledPipeline.PNG)
+
+
+Since the default python commands for running a local Swagger container were not succeeding a python flask app was created 
+instead and the "swagger.json" was hosted by means of this flask swagger UI app instead (https://github.com/chiemenz/udacity_lab2/blob/master/app_project.zip)
+
+The model POST and GET endpoints are documented with Swagger [Model Swagger Docu](https://github.com/chiemenz/udacity_lab2/blob/master/ModelSwaggerUI.PNG) & [Model Swagger Input Params](https://github.com/chiemenz/udacity_lab2/blob/master/ModelExampleSwaggerValues.PNG)
+
+
 In this project, you will following the below steps:
 
     Authentication
