@@ -30,9 +30,31 @@ bellow:
 # Architecture of the Project 
 Have a look at this diagram [ArchitectureDiagram](https://github.com/chiemenz/udacity_lab2/blob/master/ArchitectureDiagram.PNG)
 
+# Steps of the Project
+
+    1. Authentication
+    2. Automated ML Experiment
+    3. Deploy the best model
+    4. Enable logging
+    5. Swagger Documentation
+    6. Consume model endpoints
+    7. Create and publish a pipeline
+    8. Documentation
+
+## 1.) Authentication 
+
+The user was granted the owner role by executing the **az workspace share** command with the credentials.
+
+The Authentication Role Owner was granted via workspace share [Authentication Role](https://github.com/chiemenz/udacity_lab2/blob/master/AuthenticationRoleOwner.PNG)
+
+## 2.) An Automated ML Experiment was executed to find a classifier for the success of a bank marketing campaign
 
 The best model was a **VotingEnsemble** classifier with a weighted area under the curve score **(weighted AUC) of 0.94794**
 This model was deployed to a Container Instance with Authentication. 
+
+The AutoML Experiment Run has been completed [AutoML completed](https://github.com/chiemenz/udacity_lab2/blob/master/AutoMLExpCompleted.PNG)
+
+THe results of the AutoML run are enlisted here [Best Model Experiment](https://github.com/chiemenz/udacity_lab2/blob/master/BestModelExperiment.PNG)
 
 
 Result of **python endpoint.py** [Consume Endpoint Result](https://github.com/chiemenz/udacity_lab2/blob/master/ConsumeEndpointResult.PNG)
@@ -45,8 +67,7 @@ The BankMarketingAutoML Pipeline Endpoint is active [ActivePipelineEndpoint](htt
 
 
 Application Insights is enabled for the deployed marketingmodel[Application Insights Enabled](https://github.com/chiemenz/udacity_lab2/blob/master/ApplicationInsightsEnabled.PNG)
-The AutoML Experiment Run has been completed [AutoML completed](https://github.com/chiemenz/udacity_lab2/blob/master/AutoMLExpCompleted.PNG)
-THe results of the AutoML run are enlisted here [Best Model Experiment](https://github.com/chiemenz/udacity_lab2/blob/master/BestModelExperiment.PNG)
+
 
 An AutML pipeline has been started by HTTP post request of the Published pipeline [AutoML run by POST REQUEST](https://github.com/chiemenz/udacity_lab2/blob/master/AutoMLRunByPostRequest.PNG)
 
@@ -66,7 +87,6 @@ Registered Bank Marketing Dataset [RegisteredBankMarketingSet](https://github.co
 Run details of the pipeline step [RunDetailsPipelineSteps](https://github.com/chiemenz/udacity_lab2/blob/master/RunDetailsPipelineSteps.PNG)
 A Swagger Container is running on Port 4030 [SwaggerContainerRunningOnPort4030](https://github.com/chiemenz/udacity_lab2/blob/master/SwaggerContainerRunningOnPort4030.PNG)
 
-The Authentication Role Owner was granted via workspace share [Authentication Role](https://github.com/chiemenz/udacity_lab2/blob/master/AuthenticationRoleOwner.PNG)
 
 
 In this project, you will following the below steps:
