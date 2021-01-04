@@ -31,7 +31,6 @@ The best model was a **VotingEnsemble** classifier with a weighted area under th
 This model was deployed to a Container Instance with Authentication. 
 
 
-
 In this project, you will following the below steps:
 
     Authentication
