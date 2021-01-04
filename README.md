@@ -42,13 +42,11 @@ Have a look at this diagram [ArchitectureDiagram](https://github.com/chiemenz/ud
     8. Documentation
 
 ## 1.) Authentication 
-
 The user was granted the owner role by executing the **az workspace share** command with the credentials.
 
 The Authentication Role Owner was granted via workspace share [Authentication Role](https://github.com/chiemenz/udacity_lab2/blob/master/AuthenticationRoleOwner.PNG)
 
 ## 2.) An Automated ML Experiment was executed to find a classifier for the success of a bank marketing campaign
-
 The best model was a **VotingEnsemble** classifier with a weighted area under the curve score **(weighted AUC) of 0.94794**
 This model was deployed to a Container Instance with Authentication. 
 
@@ -56,12 +54,16 @@ The AutoML Experiment Run has been completed [AutoML completed](https://github.c
 
 THe results of the AutoML run are enlisted here [Best Model Experiment](https://github.com/chiemenz/udacity_lab2/blob/master/BestModelExperiment.PNG)
 
+## 3.) The best model was deployed 
+For the best model you can see that it has been both registered and deployed [Best Deployed Model](https://github.com/chiemenz/udacity_lab2/blob/master/best_deployed_model.PNG)
 
 Result of **python endpoint.py** [Consume Endpoint Result](https://github.com/chiemenz/udacity_lab2/blob/master/ConsumeEndpointResult.PNG)
+
+
 The logs.py output can be seen here [Log Outputs](https://github.com/chiemenz/udacity_lab2/blob/master/LogsOutput.PNG)
 
 
-For the best model you can see that it has been both registered and deployed [Best Deployed Model](https://github.com/chiemenz/udacity_lab2/blob/master/best_deployed_model.PNG)
+
 
 The BankMarketingAutoML Pipeline Endpoint is active [ActivePipelineEndpoint](https://github.com/chiemenz/udacity_lab2/blob/master/ActivePipelineEndpoint.PNG)
 
