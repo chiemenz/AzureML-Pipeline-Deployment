@@ -27,7 +27,7 @@ bellow:
             "previous": 1
 5
 
-The best model was a VotingEnsemble classifier with a weighted area under the curve score **(weighted AUC) of 0.94794**
+The best model was a **VotingEnsemble** classifier with a weighted area under the curve score **(weighted AUC) of 0.94794**
 This model was deployed to a Container Instance with Authentication. 
 
 
