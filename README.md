@@ -2,7 +2,7 @@
 
 The Goal of this project was to find and deploy a well performing classification model which can predict the 
 success of a marketing campaign based on customer input features. The features of an example customer are shown 
-bellow:
+bellow. For the implementation have a look at the [AzureML Pipeline Deployment Notebook](https://github.com/chiemenz/AzureML-Pipeline-Deployment/blob/master/automl-example.ipynb)
 
  {
             "age": 48,
