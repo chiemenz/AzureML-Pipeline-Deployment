@@ -114,4 +114,4 @@ Here is the link to the brief video showing:
 [Link to Video](https://www.loom.com/share/19379c75f6bf4158a697814dd1465fbf)
 
 # License
-The content of this repository is licensed under a [MIT License](https://github.com/chiemenz/AzureML-Sentiment-Classification-and-Model-Deployment/blob/master/LICENSE.txt)
+The content of this repository is licensed under a [MIT License](https://github.com/chiemenz/AzureML-Pipeline-Deployment/blob/master/LICENSE.txt)
